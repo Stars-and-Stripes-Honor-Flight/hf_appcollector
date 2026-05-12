@@ -13,7 +13,7 @@
     "url": "https://github.com/shmakes/hf_appcollector/issues"
   },
   "homepage": "https://github.com/shmakes/hf_appcollector#readme",
-  "dependencies": {
-    "request": "^2.81.0"
+  "engines": {
+    "node": "22"
   }
 }
