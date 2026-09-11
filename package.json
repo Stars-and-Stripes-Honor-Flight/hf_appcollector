@@ -1,19 +1,25 @@
 {
   "name": "hf_appcollector",
-  "version": "1.0.0",
-  "description": "Collects form submission data and stores it in a database.",
+  "version": "2.0.0",
+  "description": "Gravity Forms webhook relay to sshf-api review intake (Google SA ID token).",
   "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shmakes/hf_appcollector.git"
+    "url": "git+https://github.com/Stars-and-Stripes-Honor-Flight/hf_appcollector.git"
   },
   "author": "Steve Schmechel",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/shmakes/hf_appcollector/issues"
+    "url": "https://github.com/Stars-and-Stripes-Honor-Flight/hf_appcollector/issues"
   },
-  "homepage": "https://github.com/shmakes/hf_appcollector#readme",
+  "homepage": "https://github.com/Stars-and-Stripes-Honor-Flight/hf_appcollector#readme",
   "engines": {
     "node": "22"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.15.1"
   }
 }
